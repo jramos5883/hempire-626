@@ -9,11 +9,11 @@ const Navigation = () => {
   return (
     <Fragment>
       <div className="navigation">
-        <Link className="nav-link" to="/">
-          Home
-        </Link>
         <Link className="nav-link" to="/about">
           ABOUT US
+        </Link>
+        <Link className="nav-link" to="/contact">
+          CONTACT US
         </Link>
         <Link className="nav-link" to="/faq">
           FAQ's
@@ -26,15 +26,11 @@ const Navigation = () => {
             <HempLogo className="logo" />
           </div>
         </Link>
-
-        <Link className="nav-link" to="/contact">
-          CONTACT US
+        <Link className="nav-link" to="/location">
+          LOCATION
         </Link>
         <Link className="nav-link" to="/shop">
           SHOP
-        </Link>
-        <Link className="nav-link" to="/location">
-          LOCATION
         </Link>
         <Link className="nav-link" to="/signin">
           SIGN IN
