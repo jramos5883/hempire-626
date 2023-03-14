@@ -8,7 +8,7 @@ import Policies from "./routes/policies/policies.component";
 import Contact from "./routes/contact/contact.component";
 import Shop from "./routes/shop/shop.component";
 import Location from "./routes/location/location.component";
-import SignIn from "./routes/sign-in/sign-in.component";
+import Authentication from "./routes/authentication/authentication.component";
 
 const App = () => {
   return (
@@ -21,7 +21,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/location" element={<Location />} />
-        <Route path="/signin" element={<SignIn />} />
+        <Route path="/auth" element={<Authentication />} />
       </Route>
     </Routes>
   );
