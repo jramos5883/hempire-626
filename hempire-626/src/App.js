@@ -8,7 +8,7 @@ import Policies from "./routes/policies/policies.component";
 import Contact from "./routes/contact/contact.component";
 import Shop from "./routes/shop/shop.component";
 import Location from "./routes/location/location.component";
-import SignIn from "./routes/sing-in/sing-in.component";
+import SignIn from "./routes/sign-in/sign-in.component";
 
 const App = () => {
   return (

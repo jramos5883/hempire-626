@@ -21,10 +21,8 @@ const Navigation = () => {
         <Link className="nav-link" to="/policies">
           POLICIES INFO
         </Link>
-        <Link className="logo-contianer" to="/">
-          <div>
-            <HempLogo className="logo" />
-          </div>
+        <Link className='logo-container' to="/">
+          <HempLogo className="logo" />
         </Link>
         <Link className="nav-link" to="/location">
           LOCATION
