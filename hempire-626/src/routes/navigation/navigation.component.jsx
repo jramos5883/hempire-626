@@ -26,9 +26,11 @@ const Navigation = () => {
         <Link className="nav-link" to="/policies">
           POLICIES INFO
         </Link>
+
         <Link className="logo-container" to="/">
           <HempLogo className="logo" />
         </Link>
+
         <Link className="nav-link" to="/location">
           LOCATION
         </Link>
@@ -44,7 +46,6 @@ const Navigation = () => {
             SIGN IN
           </Link>
         )}
-
         <Link className="nav-link" to="/shop">
           CART
         </Link>
