@@ -1,9 +1,18 @@
+import { useContext } from "react";
+
+import { ProductsContext } from "../../contexts/products.context";
+
 import "./shop.styles.scss";
 
 const Shop = () => {
+  const { products } = useContext(ProductsContext);
   return (
     <div>
-      <h1>I am the shop page!</h1>
+      {products.map(({ id, name }) => (
+        <div key={id}>
+          <h1>{name}</h1>
+        </div>
+      ))}
     </div>
   );
 };
